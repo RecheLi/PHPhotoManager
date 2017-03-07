@@ -15,6 +15,30 @@
 		9FB09D721E6E8FAD0026A01C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09D701E6E8FAD0026A01C /* LaunchScreen.storyboard */; };
 		9FB09D7D1E6E8FAD0026A01C /* PHPhotoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09D7C1E6E8FAD0026A01C /* PHPhotoDemoTests.m */; };
 		9FB09D881E6E8FAD0026A01C /* PHPhotoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09D871E6E8FAD0026A01C /* PHPhotoDemoUITests.m */; };
+		9FB09DBF1E6E8FFC0026A01C /* BrowserAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09D981E6E8FFC0026A01C /* BrowserAlbumModel.m */; };
+		9FB09DC01E6E8FFC0026A01C /* BrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09D9A1E6E8FFC0026A01C /* BrowserCell.m */; };
+		9FB09DC11E6E8FFC0026A01C /* BrowserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09D9B1E6E8FFC0026A01C /* BrowserCell.xib */; };
+		9FB09DC21E6E8FFC0026A01C /* PhotoBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09D9D1E6E8FFC0026A01C /* PhotoBrowserViewController.m */; };
+		9FB09DC31E6E8FFC0026A01C /* PhotoBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09D9E1E6E8FFC0026A01C /* PhotoBrowserViewController.xib */; };
+		9FB09DC41E6E8FFC0026A01C /* PHPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09DA21E6E8FFC0026A01C /* PHPhotoManager.m */; };
+		9FB09DC51E6E8FFC0026A01C /* PhotomPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09DA51E6E8FFC0026A01C /* PhotomPreviewController.m */; };
+		9FB09DC61E6E8FFC0026A01C /* PhotomPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DA61E6E8FFC0026A01C /* PhotomPreviewController.xib */; };
+		9FB09DC71E6E8FFC0026A01C /* PreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09DA81E6E8FFC0026A01C /* PreviewCell.m */; };
+		9FB09DC81E6E8FFC0026A01C /* PreviewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09DAA1E6E8FFC0026A01C /* PreviewFlowLayout.m */; };
+		9FB09DC91E6E8FFC0026A01C /* PhotoThumbLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09DAD1E6E8FFC0026A01C /* PhotoThumbLayout.m */; };
+		9FB09DCA1E6E8FFC0026A01C /* PhotoThumbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09DAF1E6E8FFC0026A01C /* PhotoThumbViewController.m */; };
+		9FB09DCB1E6E8FFC0026A01C /* PhotoThumbViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DB01E6E8FFC0026A01C /* PhotoThumbViewController.xib */; };
+		9FB09DCC1E6E8FFC0026A01C /* ThumbAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09DB21E6E8FFC0026A01C /* ThumbAsset.m */; };
+		9FB09DCD1E6E8FFC0026A01C /* ThumbCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FB09DB41E6E8FFC0026A01C /* ThumbCell.m */; };
+		9FB09DCE1E6E8FFC0026A01C /* ThumbCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DB51E6E8FFC0026A01C /* ThumbCell.xib */; };
+		9FB09DCF1E6E8FFC0026A01C /* btnBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DB71E6E8FFC0026A01C /* btnBack@2x.png */; };
+		9FB09DD01E6E8FFC0026A01C /* btnBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DB81E6E8FFC0026A01C /* btnBack@3x.png */; };
+		9FB09DD11E6E8FFC0026A01C /* camera_@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DB91E6E8FFC0026A01C /* camera_@2x.png */; };
+		9FB09DD21E6E8FFC0026A01C /* camera_@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DBA1E6E8FFC0026A01C /* camera_@3x.png */; };
+		9FB09DD31E6E8FFC0026A01C /* select@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DBB1E6E8FFC0026A01C /* select@2x.png */; };
+		9FB09DD41E6E8FFC0026A01C /* select@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DBC1E6E8FFC0026A01C /* select@3x.png */; };
+		9FB09DD51E6E8FFC0026A01C /* unselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DBD1E6E8FFC0026A01C /* unselect@2x.png */; };
+		9FB09DD61E6E8FFC0026A01C /* unselect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FB09DBE1E6E8FFC0026A01C /* unselect@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +75,42 @@
 		9FB09D831E6E8FAD0026A01C /* PHPhotoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PHPhotoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FB09D871E6E8FAD0026A01C /* PHPhotoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PHPhotoDemoUITests.m; sourceTree = "<group>"; };
 		9FB09D891E6E8FAD0026A01C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB09D971E6E8FFC0026A01C /* BrowserAlbumModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserAlbumModel.h; sourceTree = "<group>"; };
+		9FB09D981E6E8FFC0026A01C /* BrowserAlbumModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserAlbumModel.m; sourceTree = "<group>"; };
+		9FB09D991E6E8FFC0026A01C /* BrowserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserCell.h; sourceTree = "<group>"; };
+		9FB09D9A1E6E8FFC0026A01C /* BrowserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserCell.m; sourceTree = "<group>"; };
+		9FB09D9B1E6E8FFC0026A01C /* BrowserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BrowserCell.xib; sourceTree = "<group>"; };
+		9FB09D9C1E6E8FFC0026A01C /* PhotoBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoBrowserViewController.h; sourceTree = "<group>"; };
+		9FB09D9D1E6E8FFC0026A01C /* PhotoBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoBrowserViewController.m; sourceTree = "<group>"; };
+		9FB09D9E1E6E8FFC0026A01C /* PhotoBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoBrowserViewController.xib; sourceTree = "<group>"; };
+		9FB09DA01E6E8FFC0026A01C /* PhotoDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoDefines.h; sourceTree = "<group>"; };
+		9FB09DA11E6E8FFC0026A01C /* PHPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PHPhotoManager.h; sourceTree = "<group>"; };
+		9FB09DA21E6E8FFC0026A01C /* PHPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PHPhotoManager.m; sourceTree = "<group>"; };
+		9FB09DA41E6E8FFC0026A01C /* PhotomPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotomPreviewController.h; sourceTree = "<group>"; };
+		9FB09DA51E6E8FFC0026A01C /* PhotomPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotomPreviewController.m; sourceTree = "<group>"; };
+		9FB09DA61E6E8FFC0026A01C /* PhotomPreviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotomPreviewController.xib; sourceTree = "<group>"; };
+		9FB09DA71E6E8FFC0026A01C /* PreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewCell.h; sourceTree = "<group>"; };
+		9FB09DA81E6E8FFC0026A01C /* PreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewCell.m; sourceTree = "<group>"; };
+		9FB09DA91E6E8FFC0026A01C /* PreviewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreviewFlowLayout.h; sourceTree = "<group>"; };
+		9FB09DAA1E6E8FFC0026A01C /* PreviewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreviewFlowLayout.m; sourceTree = "<group>"; };
+		9FB09DAC1E6E8FFC0026A01C /* PhotoThumbLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoThumbLayout.h; sourceTree = "<group>"; };
+		9FB09DAD1E6E8FFC0026A01C /* PhotoThumbLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoThumbLayout.m; sourceTree = "<group>"; };
+		9FB09DAE1E6E8FFC0026A01C /* PhotoThumbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoThumbViewController.h; sourceTree = "<group>"; };
+		9FB09DAF1E6E8FFC0026A01C /* PhotoThumbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoThumbViewController.m; sourceTree = "<group>"; };
+		9FB09DB01E6E8FFC0026A01C /* PhotoThumbViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoThumbViewController.xib; sourceTree = "<group>"; };
+		9FB09DB11E6E8FFC0026A01C /* ThumbAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbAsset.h; sourceTree = "<group>"; };
+		9FB09DB21E6E8FFC0026A01C /* ThumbAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbAsset.m; sourceTree = "<group>"; };
+		9FB09DB31E6E8FFC0026A01C /* ThumbCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbCell.h; sourceTree = "<group>"; };
+		9FB09DB41E6E8FFC0026A01C /* ThumbCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThumbCell.m; sourceTree = "<group>"; };
+		9FB09DB51E6E8FFC0026A01C /* ThumbCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThumbCell.xib; sourceTree = "<group>"; };
+		9FB09DB71E6E8FFC0026A01C /* btnBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnBack@2x.png"; sourceTree = "<group>"; };
+		9FB09DB81E6E8FFC0026A01C /* btnBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnBack@3x.png"; sourceTree = "<group>"; };
+		9FB09DB91E6E8FFC0026A01C /* camera_@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_@2x.png"; sourceTree = "<group>"; };
+		9FB09DBA1E6E8FFC0026A01C /* camera_@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera_@3x.png"; sourceTree = "<group>"; };
+		9FB09DBB1E6E8FFC0026A01C /* select@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select@2x.png"; sourceTree = "<group>"; };
+		9FB09DBC1E6E8FFC0026A01C /* select@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "select@3x.png"; sourceTree = "<group>"; };
+		9FB09DBD1E6E8FFC0026A01C /* unselect@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselect@2x.png"; sourceTree = "<group>"; };
+		9FB09DBE1E6E8FFC0026A01C /* unselect@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselect@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +161,7 @@
 		9FB09D611E6E8FAD0026A01C /* PHPhotoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9FB09D951E6E8FFC0026A01C /* PHPhotoManager */,
 				9FB09D651E6E8FAD0026A01C /* AppDelegate.h */,
 				9FB09D661E6E8FAD0026A01C /* AppDelegate.m */,
 				9FB09D681E6E8FAD0026A01C /* ViewController.h */,
@@ -138,6 +199,89 @@
 				9FB09D891E6E8FAD0026A01C /* Info.plist */,
 			);
 			path = PHPhotoDemoUITests;
+			sourceTree = "<group>";
+		};
+		9FB09D951E6E8FFC0026A01C /* PHPhotoManager */ = {
+			isa = PBXGroup;
+			children = (
+				9FB09D961E6E8FFC0026A01C /* PHBrowserAlbum */,
+				9FB09D9F1E6E8FFC0026A01C /* PHManager */,
+				9FB09DA31E6E8FFC0026A01C /* PHPreview */,
+				9FB09DAB1E6E8FFC0026A01C /* PHTumbnail */,
+				9FB09DB61E6E8FFC0026A01C /* Resource */,
+			);
+			path = PHPhotoManager;
+			sourceTree = "<group>";
+		};
+		9FB09D961E6E8FFC0026A01C /* PHBrowserAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				9FB09D971E6E8FFC0026A01C /* BrowserAlbumModel.h */,
+				9FB09D981E6E8FFC0026A01C /* BrowserAlbumModel.m */,
+				9FB09D991E6E8FFC0026A01C /* BrowserCell.h */,
+				9FB09D9A1E6E8FFC0026A01C /* BrowserCell.m */,
+				9FB09D9B1E6E8FFC0026A01C /* BrowserCell.xib */,
+				9FB09D9C1E6E8FFC0026A01C /* PhotoBrowserViewController.h */,
+				9FB09D9D1E6E8FFC0026A01C /* PhotoBrowserViewController.m */,
+				9FB09D9E1E6E8FFC0026A01C /* PhotoBrowserViewController.xib */,
+			);
+			path = PHBrowserAlbum;
+			sourceTree = "<group>";
+		};
+		9FB09D9F1E6E8FFC0026A01C /* PHManager */ = {
+			isa = PBXGroup;
+			children = (
+				9FB09DA01E6E8FFC0026A01C /* PhotoDefines.h */,
+				9FB09DA11E6E8FFC0026A01C /* PHPhotoManager.h */,
+				9FB09DA21E6E8FFC0026A01C /* PHPhotoManager.m */,
+			);
+			path = PHManager;
+			sourceTree = "<group>";
+		};
+		9FB09DA31E6E8FFC0026A01C /* PHPreview */ = {
+			isa = PBXGroup;
+			children = (
+				9FB09DA41E6E8FFC0026A01C /* PhotomPreviewController.h */,
+				9FB09DA51E6E8FFC0026A01C /* PhotomPreviewController.m */,
+				9FB09DA61E6E8FFC0026A01C /* PhotomPreviewController.xib */,
+				9FB09DA71E6E8FFC0026A01C /* PreviewCell.h */,
+				9FB09DA81E6E8FFC0026A01C /* PreviewCell.m */,
+				9FB09DA91E6E8FFC0026A01C /* PreviewFlowLayout.h */,
+				9FB09DAA1E6E8FFC0026A01C /* PreviewFlowLayout.m */,
+			);
+			path = PHPreview;
+			sourceTree = "<group>";
+		};
+		9FB09DAB1E6E8FFC0026A01C /* PHTumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				9FB09DAC1E6E8FFC0026A01C /* PhotoThumbLayout.h */,
+				9FB09DAD1E6E8FFC0026A01C /* PhotoThumbLayout.m */,
+				9FB09DAE1E6E8FFC0026A01C /* PhotoThumbViewController.h */,
+				9FB09DAF1E6E8FFC0026A01C /* PhotoThumbViewController.m */,
+				9FB09DB01E6E8FFC0026A01C /* PhotoThumbViewController.xib */,
+				9FB09DB11E6E8FFC0026A01C /* ThumbAsset.h */,
+				9FB09DB21E6E8FFC0026A01C /* ThumbAsset.m */,
+				9FB09DB31E6E8FFC0026A01C /* ThumbCell.h */,
+				9FB09DB41E6E8FFC0026A01C /* ThumbCell.m */,
+				9FB09DB51E6E8FFC0026A01C /* ThumbCell.xib */,
+			);
+			path = PHTumbnail;
+			sourceTree = "<group>";
+		};
+		9FB09DB61E6E8FFC0026A01C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9FB09DB71E6E8FFC0026A01C /* btnBack@2x.png */,
+				9FB09DB81E6E8FFC0026A01C /* btnBack@3x.png */,
+				9FB09DB91E6E8FFC0026A01C /* camera_@2x.png */,
+				9FB09DBA1E6E8FFC0026A01C /* camera_@3x.png */,
+				9FB09DBB1E6E8FFC0026A01C /* select@2x.png */,
+				9FB09DBC1E6E8FFC0026A01C /* select@3x.png */,
+				9FB09DBD1E6E8FFC0026A01C /* unselect@2x.png */,
+				9FB09DBE1E6E8FFC0026A01C /* unselect@3x.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +393,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB09DD61E6E8FFC0026A01C /* unselect@3x.png in Resources */,
+				9FB09DD11E6E8FFC0026A01C /* camera_@2x.png in Resources */,
+				9FB09DC11E6E8FFC0026A01C /* BrowserCell.xib in Resources */,
+				9FB09DCB1E6E8FFC0026A01C /* PhotoThumbViewController.xib in Resources */,
+				9FB09DD51E6E8FFC0026A01C /* unselect@2x.png in Resources */,
+				9FB09DC31E6E8FFC0026A01C /* PhotoBrowserViewController.xib in Resources */,
+				9FB09DD31E6E8FFC0026A01C /* select@2x.png in Resources */,
+				9FB09DD21E6E8FFC0026A01C /* camera_@3x.png in Resources */,
 				9FB09D721E6E8FAD0026A01C /* LaunchScreen.storyboard in Resources */,
+				9FB09DCF1E6E8FFC0026A01C /* btnBack@2x.png in Resources */,
+				9FB09DC61E6E8FFC0026A01C /* PhotomPreviewController.xib in Resources */,
 				9FB09D6F1E6E8FAD0026A01C /* Assets.xcassets in Resources */,
+				9FB09DCE1E6E8FFC0026A01C /* ThumbCell.xib in Resources */,
 				9FB09D6D1E6E8FAD0026A01C /* Main.storyboard in Resources */,
+				9FB09DD01E6E8FFC0026A01C /* btnBack@3x.png in Resources */,
+				9FB09DD41E6E8FFC0026A01C /* select@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +433,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FB09DCD1E6E8FFC0026A01C /* ThumbCell.m in Sources */,
+				9FB09DBF1E6E8FFC0026A01C /* BrowserAlbumModel.m in Sources */,
+				9FB09DC91E6E8FFC0026A01C /* PhotoThumbLayout.m in Sources */,
+				9FB09DCA1E6E8FFC0026A01C /* PhotoThumbViewController.m in Sources */,
+				9FB09DCC1E6E8FFC0026A01C /* ThumbAsset.m in Sources */,
+				9FB09DC71E6E8FFC0026A01C /* PreviewCell.m in Sources */,
+				9FB09DC51E6E8FFC0026A01C /* PhotomPreviewController.m in Sources */,
 				9FB09D6A1E6E8FAD0026A01C /* ViewController.m in Sources */,
+				9FB09DC81E6E8FFC0026A01C /* PreviewFlowLayout.m in Sources */,
+				9FB09DC21E6E8FFC0026A01C /* PhotoBrowserViewController.m in Sources */,
+				9FB09DC41E6E8FFC0026A01C /* PHPhotoManager.m in Sources */,
 				9FB09D671E6E8FAD0026A01C /* AppDelegate.m in Sources */,
+				9FB09DC01E6E8FFC0026A01C /* BrowserCell.m in Sources */,
 				9FB09D641E6E8FAD0026A01C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,7 +541,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -427,6 +595,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KTSJZ2Z9P;
 				INFOPLIST_FILE = PHPhotoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = linitial.PHPhotoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +608,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2KTSJZ2Z9P;
 				INFOPLIST_FILE = PHPhotoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = linitial.PHPhotoDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

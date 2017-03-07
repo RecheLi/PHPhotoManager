@@ -1,14 +1,34 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="biR-v3-LM8">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="G9r-s3-Uxt">
+            <objects>
+                <navigationController id="biR-v3-LM8" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="wIL-xg-efQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="3b9-68-UmL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Oz-Q2-Ya5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-521" y="132"/>
+        </scene>
+        <!--PhotoKit Demo-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +36,32 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Wf-Jt-aIm">
+                                <rect key="frame" x="129" y="85" width="117" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Mdm-aK-2sp"/>
+                                    <constraint firstAttribute="width" constant="117" id="qEY-w4-Y4h"/>
+                                </constraints>
+                                <state key="normal" title="打开相册">
+                                    <color key="titleColor" red="0.94117647059999998" green="0.35686274509999999" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="openPhotoLib:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8kd-u8-Eg1"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4Wf-Jt-aIm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a3C-Fg-btP"/>
+                            <constraint firstItem="4Wf-Jt-aIm" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="o9m-yj-47h"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" title="PhotoKit Demo" id="YcX-j2-nE5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-447.19999999999999" y="-552.77361319340332"/>
         </scene>
     </scenes>
 </document>

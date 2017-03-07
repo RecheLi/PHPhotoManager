@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ThumbCell">
+            <rect key="frame" x="0.0" y="0.0" width="105" height="96"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="105" height="96"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rXO-xT-2F8">
+                        <rect key="frame" x="0.0" y="0.0" width="105" height="96"/>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8c-5C-LsK">
+                        <rect key="frame" x="65" y="56" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="5RX-8u-kr9"/>
+                            <constraint firstAttribute="width" constant="40" id="W13-Pw-mWc"/>
+                        </constraints>
+                        <state key="normal" image="unselect.png"/>
+                        <state key="selected" image="select.png"/>
+                        <state key="highlighted" image="select.png"/>
+                        <connections>
+                            <action selector="selectPhoto:" destination="gTV-IL-0wX" eventType="touchUpInside" id="y23-9f-jdk"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="rXO-xT-2F8" secondAttribute="bottom" id="2WV-Ls-PR9"/>
+                <constraint firstAttribute="trailing" secondItem="rXO-xT-2F8" secondAttribute="trailing" id="7ar-LK-9pi"/>
+                <constraint firstAttribute="trailing" secondItem="P8c-5C-LsK" secondAttribute="trailing" id="KTR-JK-WWg"/>
+                <constraint firstItem="rXO-xT-2F8" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ws2-Jn-f8K"/>
+                <constraint firstItem="rXO-xT-2F8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="boL-ur-2Y7"/>
+                <constraint firstAttribute="bottom" secondItem="P8c-5C-LsK" secondAttribute="bottom" id="fPG-Yz-WTY"/>
+            </constraints>
+            <size key="customSize" width="105" height="96"/>
+            <connections>
+                <outlet property="selectButton" destination="P8c-5C-LsK" id="IKk-oU-18l"/>
+                <outlet property="thumbImageView" destination="rXO-xT-2F8" id="ljz-YV-FvM"/>
+            </connections>
+            <point key="canvasLocation" x="-1.5" y="11"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="select.png" width="23" height="23"/>
+        <image name="unselect.png" width="23" height="23"/>
+    </resources>
+</document>
